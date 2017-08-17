@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;estilos&quot;}">
+  <meta name="vaadin-version" content="8.0.0">
+ </head>
+ <body>
+  <vaadin-css-layout style-name="form-template" responsive size-full>
+   <vaadin-label style-name="title" width-full plain-text>
+     Añadir Nuevas Actividades
+   </vaadin-label>
+   <vaadin-css-layout caption="Información Actividad" style-name="form-section">
+    <vaadin-css-layout style-name="input-group">
+     <vaadin-css-layout style-name="input-wrapper" width-full>
+      <vaadin-text-field caption="Nombre Actividad" width-full _id="tfNombreActividad"></vaadin-text-field>
+     </vaadin-css-layout>
+     <vaadin-css-layout style-name="input-wrapper" width-full>
+      <vaadin-combo-box caption="Ejes Disponibles" width-full data-item-type="mx.edu.uaz.modelos.Eje" _id="cbEjes">
+       <option item="Option1">Option 1</option>
+       <option item="Option2">Option 2</option>
+       <option item="Option3">Option 3</option>
+      </vaadin-combo-box>
+     </vaadin-css-layout>
+     <vaadin-css-layout style-name="input-wrapper" width-full>
+      <vaadin-combo-box caption="Metas Disponibles" width-full data-item-type="mx.edu.uaz.modelos.Meta" _id="cbMetas">
+       <option item="Option1">Option 1</option>
+       <option item="Option2">Option 2</option>
+       <option item="Option3">Option 3</option>
+      </vaadin-combo-box>
+     </vaadin-css-layout>
+     <vaadin-css-layout style-name="input-wrapper" width-full>
+      <vaadin-combo-box caption="Indicadores Disponibles" width-full data-item-type="mx.edu.uaz.modelos.Indicador" _id="cbIndicadores">
+       <option item="Option1">Option 1</option>
+       <option item="Option2">Option 2</option>
+       <option item="Option3">Option 3</option>
+      </vaadin-combo-box>
+     </vaadin-css-layout>
+     <vaadin-css-layout style-name="input-group" width-full>
+      <vaadin-css-layout style-name="input-wrapper" width="50%">
+       <vaadin-date-field caption="Fecha Inicio" width-full _id="dfFechaInicio"></vaadin-date-field>
+      </vaadin-css-layout>
+      <vaadin-css-layout style-name="input-wrapper" width="50%">
+       <vaadin-date-field caption="Fecha Final" width-full _id="dfFechaFinal"></vaadin-date-field>
+      </vaadin-css-layout>
+     </vaadin-css-layout>
+     <vaadin-css-layout style-name="input-group" width-full>
+      <vaadin-css-layout style-name="input-wrapper" width="50%">
+       <vaadin-combo-box caption="Origen Recursos Disponibles" width-full data-item-type="mx.edu.uaz.modelos.Recurso" _id="cbRecursos">
+        <option item="Option1">Option 1</option>
+        <option item="Option2">Option 2</option>
+        <option item="Option3">Option 3</option>
+       </vaadin-combo-box>
+      </vaadin-css-layout>
+      <vaadin-css-layout style-name="input-wrapper" width="50%">
+       <vaadin-text-field icon="fonticon://Vaadin-Icons/e60a" caption="Recurso" width-full _id="tfRecursos"></vaadin-text-field>
+      </vaadin-css-layout>
+     </vaadin-css-layout>
+     <vaadin-css-layout style-name="input-group" width-full></vaadin-css-layout>
+     <vaadin-css-layout style-name="input-group" width-full>
+      <vaadin-button icon="fonticon://Vaadin-Icons/e801" style-name="friendly" width-full plain-text _id="btnRecursos">
+        Agregar Origen de Recursos
+      </vaadin-button>
+     </vaadin-css-layout>
+     <vaadin-css-layout style-name="input-group" width-full>
+      <vaadin-text-area caption="Descripción" width-full _id="taDescripcion"></vaadin-text-area>
+     </vaadin-css-layout>
+    </vaadin-css-layout>
+   </vaadin-css-layout>
+   <vaadin-css-layout style-name="form-section" width-full>
+    <vaadin-css-layout style-name="input-wrapper" width="25%"></vaadin-css-layout>
+    <vaadin-button style-name="primary" width="50%" plain-text _id="btnGuardarActividad">
+      Guardar Actividad
+    </vaadin-button>
+   </vaadin-css-layout>
+  </vaadin-css-layout>
+ </body>
+</html>

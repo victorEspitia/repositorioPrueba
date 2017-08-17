@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration PUBLIC "-//ibatis.apache.org//DTD Config 3.0//EN" "http://ibatis.apache.org/dtd/ibatis-3-config.dtd">
+
+<configuration>
+    <typeAliases>
+        <typeAlias type="mx.edu.uaz.modelos.Eje" alias="Eje"/>
+        <typeAlias type="mx.edu.uaz.modelos.Meta" alias="Meta"/>
+        <typeAlias type="mx.edu.uaz.modelos.Indicador" alias="Indicador"/>
+        <typeAlias type="mx.edu.uaz.modelos.Usuario" alias="Usuario"/>
+        <typeAlias type="mx.edu.uaz.modelos.Recurso" alias="Recurso"/>
+        <typeAlias type="mx.edu.uaz.modelos.Actividad" alias="Actividad"/>
+    </typeAliases>
+
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="JDBC" />
+            <dataSource type="UNPOOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver" />
+                <property name="url" value="jdbc:mysql://127.0.0.1:3306/rectoria?useSSL=false&amp;serverTimezone=UTC" />
+                <property name="username" value="root" />
+                <property name="password" value="" />
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <mapper resource="db/mappers/Eje.xml" />
+        <mapper resource="db/mappers/Meta.xml" />
+        <mapper resource="db/mappers/Indicador.xml" />
+        <mapper resource="db/mappers/Usuario.xml" />
+        <mapper resource="db/mappers/Recurso.xml"/>
+        <mapper resource="db/mappers/Actividad.xml"/>
+    </mappers>
+</configuration>

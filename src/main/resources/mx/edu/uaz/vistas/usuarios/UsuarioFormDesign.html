@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;estilos&quot;}">
+  <meta name="vaadin-version" content="8.0.0">
+ </head>
+ <body>
+  <vaadin-css-layout style-name="form-template" responsive size-full>
+   <vaadin-label style-name="title" width-full plain-text>
+     Formulario de Registro 
+   </vaadin-label>
+   <vaadin-css-layout caption="Información Personal" style-name="form-section" height="597px">
+    <vaadin-css-layout style-name="input-group" width-full>
+     <vaadin-css-layout style-name="input-wrapper" width-full>
+      <vaadin-text-field caption="Nombre" placeholder="Ej. Manuel" width-full _id="tfNombre"></vaadin-text-field>
+     </vaadin-css-layout>
+     <vaadin-css-layout style-name="input-wrapper" width-full>
+      <vaadin-text-field caption="Apellidos" placeholder="Ej. Haro Márquez" width-full _id="tfApellidos"></vaadin-text-field>
+     </vaadin-css-layout>
+     <vaadin-css-layout style-name="input-wrapper" width-full>
+      <vaadin-text-field caption="Comision" placeholder="Ej. Director de Ingeniería de Software" width-full _id="tfNombreComision"></vaadin-text-field>
+     </vaadin-css-layout>
+     <vaadin-css-layout style-name="input-wrapper" width-full>
+      <vaadin-text-field caption="Correo" placeholder="Ej ejemplo@correo.com" width-full _id="tfCorreo"></vaadin-text-field>
+     </vaadin-css-layout>
+     <vaadin-css-layout style-name="input-wrapper" width-full>
+      <vaadin-text-field caption="Usuario" placeholder="" width-full _id="tfUsuario"></vaadin-text-field>
+     </vaadin-css-layout>
+     <vaadin-css-layout style-name="input-wrapper" width-full height="95px">
+      <vaadin-password-field caption="Contraseña" width-full _id="pfPassword"></vaadin-password-field>
+     </vaadin-css-layout>
+     <vaadin-css-layout style-name="input-wrapper" width-full height="95px">
+      <vaadin-upload button-caption="Subir Fotografía" _id="uploadFoto"></vaadin-upload>
+     </vaadin-css-layout>
+    </vaadin-css-layout>
+   </vaadin-css-layout>
+   <vaadin-css-layout style-name="form-section" width-full height="0px">
+    <vaadin-css-layout style-name="input-group" width-full>
+     <vaadin-css-layout style-name="input-wrapper" width-full>
+      <vaadin-horizontal-layout>
+       <vaadin-button style-name="primary" plain-text _id="btnRegistrar">
+         Registrar 
+       </vaadin-button>
+       <vaadin-button plain-text _id="btnCancelar">
+         Cancel 
+       </vaadin-button>
+      </vaadin-horizontal-layout>
+     </vaadin-css-layout>
+    </vaadin-css-layout>
+   </vaadin-css-layout>
+  </vaadin-css-layout>
+ </body>
+</html>

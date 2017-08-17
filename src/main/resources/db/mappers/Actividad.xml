@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD iBatis Mapper 3.0 //EN" "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="mx.edu.mx.persitencia.confif.mappers">
+
+    <insert id="guardarActividad" parameterType="Actividad" >
+        INSERT INTO actividades
+        (nombre ,descripcion, fecha_inicio, fecha_final, recurso, id_origenRecurso, id_indicador, id_usuario)
+        VALUES	(#{nombre},#{descripcion},#{fecha_inicio},#{fecha_final},#{recurso},#{id_origenRecurso.id_origenRecurso},#{id_indicador.id_indicador},#{id_usuario.id_usuario});
+    </insert>
+
+    <update id="modificarActividad" parameterType="Indicador" >
+        UPDATE actividades SET
+        nombre = #{nombre},
+        descripcion = #{descripcion},
+        fecha_inicio = #{fecha_inicio},
+        fecha_final = #{fecha_final},
+        recurso = #{recurso},
+        id_origenRecurso = #{id_origenRecurso.id_origenRecurso},
+        id_indicador = #{id_indicador.id_indicador},
+        id_usuario=#{id_usuario.id_usuario}
+        WHERE id_actividad = #{id_actividad};
+    </update>
+
+    <select id="obtenActividades" resultMap="resultMapActividad">
+        SELECT a.*, u.*, u.nombre AS nombre_usuario FROM actividades a INNER JOIN usuario u ON a.id_usuario = u.id_usuario;
+    </select>
+
+    <delete id="borrarActividad" parameterType="int" >
+        DELETE FROM actividades
+        WHERE id_actividad = #{id_actividad};
+    </delete>
+
+    <select id="obtenEjeByActividad" resultMap="EjeActividad" parameterType="int">
+        SELECT e.* FROM ejes e JOIN metas m ON e.id_eje = m.id_eje
+                               JOIN indicadores i ON m.id_meta = i.id_meta
+                               JOIN actividades a ON i.id_indicador = a.id_indicador
+                               WHERE a.id_actividad = #{id_actividad};
+    </select>
+
+    <select id="obtenActividadesByEje" resultMap="resultMapActividad" parameterType="int">
+        SELECT a.* FROM actividades a JOIN indicadores i ON i.id_indicador = a.id_indicador
+        JOIN metas m ON m.id_meta = i.id_meta
+        JOIN ejes e ON e.id_eje = m.id_eje
+        WHERE e.id_eje = #{id_eje};
+    </select>
+
+    <select id="obtenActividadesByIndicador" resultMap="resultMapActividad" parameterType="int">
+        SELECT a.*, u.*, u.nombre AS nombre_usuario, o.* FROM actividades a
+        JOIN indicadores i ON i.id_indicador = a.id_indicador
+        JOIN usuario u ON u.id_usuario = a.id_usuario
+        JOIN origen_recurso o ON o.id_origenRecurso = a.id_origenRecurso
+        WHERE i.id_indicador = #{id_indicador};
+    </select>
+
+    <select id="obtenMetaByActividad" resultMap="MetaActividad" parameterType="int">
+        SELECT m.* FROM metas m JOIN indicadores i ON m.id_meta = i.id_meta
+                                JOIN actividades a ON i.id_indicador = a.id_indicador
+                                WHERE a.id_actividad = #{id_actividad};
+    </select>
+
+    <select id="obtenIndicadorByActividad" resultMap="IndicadorActividad" parameterType="int">
+        SELECT i.* FROM indicadores i JOIN actividades a ON i.id_indicador = a.id_indicador
+                    WHERE a.id_actividad = #{id_actividad};
+    </select>
+
+    <select id="obtenActividadesByUser" resultMap="resultMapActividad" parameterType="int">
+        SELECT a.*, u.*, u.nombre AS nombre_usuario FROM actividades a INNER JOIN usuario u ON a.id_usuario = u.id_usuario WHERE a.id_usuario = #{id_usuario};
+    </select>
+
+    <resultMap type="Actividad" id="resultMapActividad">
+        <id property="id_actividad" column="id_actividad"/>
+        <result property="nombre" column="nombre"/>
+        <result property="descripcion" column="descripcion"/>
+        <result property="fecha_inicio" column="fecha_inicio"/>
+        <result property="fecha_final" column="fecha_final"/>
+        <result property="recurso" column="recurso"/>
+        <association property="id_indicador" javaType="Indicador">
+            <id property="id_indicador" column="id_indicador"/>
+            <result property="nombre" column="nombre"/>
+        </association>
+        <association property="id_origenRecurso" javaType="Recurso">
+            <id property="id_origenRecurso" column="id_origenRecurso"/>
+            <result property="nombre_recurso" column="nombre_recurso"/>
+        </association>
+        <association property="id_usuario" javaType="Usuario">
+            <id property="id_usuario" column="id_usuario"/>
+            <result property="nombre" column="nombre_usuario"/>
+            <result property="apellidos" column="apellidos"/>
+            <result property="correo" column="correo"/>
+            <result property="cargo" column="cargo"/>
+            <result property="user" column="user"/>
+            <result property="password" column="password"/>
+            <result property="nombre_comisionado" column="nombre_comisionado"/>
+        </association>
+    </resultMap>
+
+
+    <resultMap type="Eje" id="EjeActividad">
+        <id property="id_eje" column="id_eje"/>
+        <result property="nombre" column="nombre"/>
+        <result property="descripcion" column="descripcion"/>
+    </resultMap>
+
+    <resultMap type="Meta" id="MetaActividad">
+        <id property="id_meta" column="id_meta"/>
+        <result property="nombre" column="nombre"/>
+        <result property="descripcion" column="descripcion"/>
+        <association property="id_eje" javaType="Eje">
+            <id property="id_eje" column="id_eje"/>
+            <result property="nombre" column="nombre"/>
+        </association>
+    </resultMap>
+
+    <resultMap type="Indicador" id="IndicadorActividad">
+        <id property="id_indicador" column="id_indicador"/>
+        <result property="nombre" column="nombre"/>
+        <result property="descripcion" column="descripcion"/>
+        <result property="planeado" column="planeado"/>
+        <association property="id_meta" javaType="Meta">
+            <id property="id_meta" column="id_meta"/>
+            <result property="nombre" column="nombre"/>
+        </association>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD iBatis Mapper 3.0 //EN" "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="mx.edu.mx.persitencia.confif.mappers">
+
+    <insert id="guardarMetas" parameterType="Meta" >
+        INSERT INTO metas
+        (nombre,descripcion,id_eje)
+        VALUES	(#{nombre},#{descripcion},#{id_eje.id_eje});
+    </insert>
+
+    <delete id="borrarMeta" parameterType="int" >
+        DELETE FROM metas
+        WHERE id_meta = #{id_meta};
+    </delete>
+
+    <update id="modificarMetas" parameterType="Meta" >
+        UPDATE metas SET
+        nombre = #{nombre},
+        descripcion = #{descripcion},
+        id_eje=#{id_eje.id_eje}
+        WHERE id_meta = #{id_meta};
+    </update>
+
+    <select id="obtenMetas" resultMap="resultMapMetas">
+        SELECT u.* FROM metas u;
+    </select>
+
+    <select id="obtenMetasByIDEje" resultMap="resultMapMetas" parameterType="int">
+        SELECT u.* FROM metas u WHERE id_eje= #{id_eje};
+    </select>
+
+    <select id="obtenMetasBuscador" resultMap="resultMapMetas" parameterType="String">
+        SELECT u.* FROM metas u WHERE u.nombre LIKE '%'#{nombre_meta}'%';
+    </select>
+
+    <resultMap type="Meta" id="resultMapMetas">
+        <id property="id_meta" column="id_meta"/>
+        <result property="nombre" column="nombre"/>
+        <result property="descripcion" column="descripcion"/>
+        <association property="id_eje" javaType="Eje">
+            <id property="id_eje" column="id_eje"/>
+            <result property="nombre" column="nombre"/>
+        </association>
+    </resultMap>
+</mapper>

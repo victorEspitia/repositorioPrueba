@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD iBatis Mapper 3.0 //EN" "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="mx.edu.mx.persitencia.confif.mappers">
+
+    <insert id="guardarUsuario" parameterType="Usuario" >
+        INSERT INTO usuario
+        (id_usuario, nombre, apellidos, correo, cargo, user, password, nombre_comisionado)
+        VALUES (NULL, #{nombre}, #{apellidos} ,#{correo}, #{cargo}, #{user}, #{password}, #{nombre_comisionado});
+    </insert>
+
+    <delete id="borrarUsuario" parameterType="int" >
+        DELETE FROM usuario
+        WHERE id_usuario = #{id_usuario};
+    </delete>
+
+    <update id="modificarUsuario" parameterType="Usuario" >
+        UPDATE usuario SET
+        nombre = #{nombre},
+        apellidos = #{apellidos},
+        correo = #{correo},
+        cargo = #{cargo},
+        user = #{user},
+        password = #{password},
+        nombre_comisionado = #{nombre_comisionado}
+        WHERE id_usuario = #{id_usuario};
+    </update>
+
+    <select id="obtenUsuarios" resultMap="resultMapUsuarios">
+        SELECT * FROM usuario;
+    </select>
+
+    <select id="obtenUserNames" resultMap="resultMapUsuarios">
+        SELECT user FROM usuario;
+    </select>
+
+    <resultMap type="Usuario" id="resultMapUsuarios">
+        <id property="id_usuario" column="id_usuario"/>
+        <result property="nombre" column="nombre"/>
+        <result property="apellidos" column="apellidos"/>
+        <result property="correo" column="correo"/>
+        <result property="cargo" column="cargo"/>
+        <result property="user" column="user"/>
+        <result property="password" column="password"/>
+        <result property="nombre_comisionado" column="nombre_comisionado"/>
+    </resultMap>
+
+</mapper>

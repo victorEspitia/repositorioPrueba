@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD iBatis Mapper 3.0 //EN" "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="mx.edu.mx.persitencia.confif.mappers">
+
+    <insert id="guardarIndicador" parameterType="Indicador" >
+        INSERT INTO indicadores
+        (nombre ,descripcion, planeado, id_meta)
+        VALUES	(#{nombre},#{descripcion},#{planeado},#{id_meta.id_meta});
+    </insert>
+
+    <select id="obtenIndicadores" resultMap="resultMapIndicador">
+        SELECT i.* FROM indicadores i;
+    </select>
+
+    <select id="obtenEjesByIndicadores" resultMap="resultMapEjesIndicador" parameterType="int">
+        SELECT e.* FROM ejes e JOIN metas m ON e.id_eje = m.id_eje WHERE m.id_meta = #{id_meta};
+    </select>
+
+    <update id="modificarIndicador" parameterType="Indicador" >
+        UPDATE indicadores SET
+        nombre = #{nombre},
+        descripcion = #{descripcion},
+        planeado = #{planeado},
+        id_meta=#{id_meta.id_meta}
+        WHERE id_indicador = #{id_indicador};
+    </update>
+
+    <delete id="borrarIndicador" parameterType="int" >
+        DELETE FROM indicadores
+        WHERE id_indicador = #{id_indicador};
+    </delete>
+
+    <select id="obtenIndicadoresByidMeta" resultMap="resultMapIndicador" parameterType="int">
+        SELECT i.* FROM indicadores i JOIN metas m ON i.id_meta = m.id_meta WHERE m.id_meta = #{id_meta};
+    </select>
+
+    <resultMap type="Indicador" id="resultMapIndicador">
+        <id property="id_indicador" column="id_indicador"/>
+        <result property="nombre" column="nombre"/>
+        <result property="descripcion" column="descripcion"/>
+        <result property="planeado" column="planeado"/>
+        <association property="id_meta" javaType="Meta">
+            <id property="id_meta" column="id_meta"/>
+            <result property="nombre" column="nombre"/>
+        </association>
+    </resultMap>
+
+    <resultMap type="Eje" id="resultMapEjesIndicador">
+        <id property="id_eje" column="id_eje"/>
+        <result property="nombre" column="nombre"/>
+        <result property="descripcion" column="descripcion"/>
+    </resultMap>
+
+</mapper>

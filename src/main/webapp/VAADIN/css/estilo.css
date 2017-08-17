@@ -1,0 +1,18 @@
+.v-generated-body {
+   	overflow: scroll !important;
+}	
+.v-app, .v-app-loading {
+  	font: inherit !important;
+}
+a{
+	text-decoration:none !important;
+}
+.mi-boton-a{
+	background-image: none;
+}
+.mi-contenido{
+	width: 100%;
+}
+.v-ui {
+    position: absolute !important;
+}

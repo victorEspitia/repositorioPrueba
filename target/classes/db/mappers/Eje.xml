@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD iBatis Mapper 3.0 //EN" "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="mx.edu.mx.persitencia.confif.mappers">
+
+    <insert id="guardarEje" parameterType="Eje" >
+        INSERT INTO ejes
+        (nombre ,descripcion)
+        VALUES	(#{nombre},#{descripcion});
+    </insert>
+
+    <delete id="borrarEje" parameterType="int" >
+        DELETE FROM ejes
+        WHERE id_eje = #{id_eje};
+    </delete>
+
+    <delete id="borrarEjes" parameterType="int">
+        DELETE FROM ejes
+        WHERE id_eje = #{id_eje};
+    </delete>
+
+    <update id="modificarEje" parameterType="Eje" >
+        UPDATE ejes SET
+        nombre = #{nombre},
+        descripcion = #{descripcion}
+        WHERE id_eje = #{id_eje};
+    </update>
+
+    <select id="obtenEjes" resultMap="resultMapEjes">
+        SELECT e.* FROM ejes e;
+    </select>
+
+
+    <resultMap type="Eje" id="resultMapEjes">
+        <id property="id_eje" column="id_eje"/>
+        <result property="nombre" column="nombre"/>
+        <result property="descripcion" column="descripcion"/>
+    </resultMap>
+
+</mapper>

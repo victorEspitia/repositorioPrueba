@@ -1,0 +1,25 @@
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD iBatis Mapper 3.0 //EN" "http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="mx.edu.mx.persitencia.confif.mappers">
+
+    <insert id="guardarRecurso" parameterType="Recurso" >
+        INSERT INTO origen_recurso
+        (nombre_recurso)
+        VALUES	(#{nombre_recurso});
+    </insert>
+
+    <delete id="borrarRecurso" parameterType="int" >
+        DELETE FROM origen_recurso
+        WHERE id_origenRecurso = #{id_origenRecurso};
+    </delete>
+
+
+    <select id="obtenRecursos" resultMap="resultMapRecurso">
+        SELECT o.* FROM origen_recurso o;
+    </select>
+
+    <resultMap type="Recurso" id="resultMapRecurso">
+        <id property="id_origenRecurso" column="id_origenRecurso"/>
+        <result property="nombre_recurso" column="nombre_recurso"/>
+    </resultMap>
+</mapper>

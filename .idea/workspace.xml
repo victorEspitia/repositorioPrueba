@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="accc3043-32f1-4585-b0ff-43a951bc5056" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/avatar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/avatar04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/avatar2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/avatar3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/avatar5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/boxed-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/boxed-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/credit/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/credit/american-express.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/credit/cirrus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/credit/mastercard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/credit/mestro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/credit/paypal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/credit/paypal2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/credit/visa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/default-50x50.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/photo1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/photo2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/photo3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/photo4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/uaz-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/uaz.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/user1-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/user2-160x160.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/user3-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/user4-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/user5-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/user6-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/user7-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/img/user8-128x128.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/Gilberto-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/Jorge-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/Luis-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/Victor Hugo-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/Victor Hugo-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/asdasdasd-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/default.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/reports/report.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/333A66D5307B1C8C9935C59A877F1993.cache.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/51DCB1D3F3D956ACC80F89D3CF0AC5BE.cache.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/559E818219846B28670E6F3100F60868.cache.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/AppWidgetset.devmode.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/AppWidgetset.nocache.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/D03281BC3FDB49177B485D1DC10A13C4.cache.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/clear.cache.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/559E818219846B28670E6F3100F60868/1.cache.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/559E818219846B28670E6F3100F60868/2.cache.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/559E818219846B28670E6F3100F60868/3.cache.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/559E818219846B28670E6F3100F60868/4.cache.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/559E818219846B28670E6F3100F60868/5.cache.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/559E818219846B28670E6F3100F60868/6.cache.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/559E818219846B28670E6F3100F60868/7.cache.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/559E818219846B28670E6F3100F60868/8.cache.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/accesodatos/ADActividad.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/accesodatos/ADEje.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/accesodatos/ADIndicador.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/accesodatos/ADMeta.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/accesodatos/ADRecurso.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/accesodatos/ADUsuario.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/modelos/Actividad.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/modelos/Eje.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/modelos/Indicador.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/modelos/Meta.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/modelos/Recurso.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/modelos/Usuario.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/persistencia/PersistenciaSesion.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/principal/InicioUI$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/principal/InicioUI$InicioUIServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/principal/InicioUI.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/utils/Broadcaster$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/utils/Broadcaster$BroadcastListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/utils/Broadcaster.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/utils/BuscaComponentes.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/utils/CadenaAleatoria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/utils/Correo$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/utils/Correo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/utils/FilesFromFolder.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/utils/Hash.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/utils/ImageTools.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/utils/ImageToolsException.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/utils/LocalDateTimeToDateConverter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/utils/SubirFoto.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/InicioSesion$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/InicioSesion.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/Principal$clickButton.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/Principal.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/PrincipalUser$clickButton.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/PrincipalUser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/Registrar$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/Registrar.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/SpreadsheetReport.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/actividades/ActividadesTab.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/actividades/AddActividad.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/actividades/AgregarActividad$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/actividades/AgregarActividad$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/actividades/AgregarActividad$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/actividades/AgregarActividad$4$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/actividades/AgregarActividad$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/actividades/AgregarActividad.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/actividades/MostrarTodasActividades$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/actividades/MostrarTodasActividades$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/actividades/MostrarTodasActividades$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/actividades/MostrarTodasActividades.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/ejes/EjesForm$CrudUsuario.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/ejes/EjesForm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/ejes/EjesFormDesign.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/ejes/EjesTab.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/ejes/ListaEjesForm$EliminarEje.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/ejes/ListaEjesForm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/indicadores/IndicadoresForm$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/indicadores/IndicadoresForm$CrudIndicador.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/indicadores/IndicadoresForm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/indicadores/IndicadoresFormDesign.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/indicadores/IndicadoresTab.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/indicadores/ListaIndicadoresForm$EliminarIndicador$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/indicadores/ListaIndicadoresForm$EliminarIndicador.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/indicadores/ListaIndicadoresForm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/metas/ListaMetasForm$EliminarMeta$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/metas/ListaMetasForm$EliminarMeta.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/metas/ListaMetasForm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/metas/MetasForm$CrudUsuario.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/metas/MetasForm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/metas/MetasFormDesign.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/metas/MetasTab.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/usuarios/ListaUsuariosForm$EliminarUsuario$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/usuarios/ListaUsuariosForm$EliminarUsuario.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/usuarios/ListaUsuariosForm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/usuarios/UsuarioForm$CrudUsuario.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/usuarios/UsuarioForm.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/usuarios/UsuarioFormDesign.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/usuarios/UsuarioPerfil$CrudUsuario.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/usuarios/UsuarioPerfil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/usuarios/UsuariosTab.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.designer/designer-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EjemploBootstrap.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hs_err_pid22648.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/accesodatos/ADActividad.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/accesodatos/ADEje.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/accesodatos/ADIndicador.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/accesodatos/ADMeta.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/accesodatos/ADRecurso.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/accesodatos/ADUsuario.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/modelos/Actividad.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/modelos/Eje.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/modelos/Indicador.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/modelos/Meta.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/modelos/Recurso.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/modelos/Usuario.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/persistencia/PersistenciaSesion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/principal/InicioUI.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/utils/Broadcaster.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/utils/BuscaComponentes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/utils/CadenaAleatoria.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/utils/Correo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/utils/FilesFromFolder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/utils/Hash.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/utils/ImageTools.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/utils/ImageToolsException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/utils/LocalDateTimeToDateConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/utils/SubirFoto.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/InicioSesion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/Principal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/PrincipalUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/Registrar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/SpreadsheetReport.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/actividades/ActividadesTab.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/actividades/AddActividad.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/actividades/AgregarActividad.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/actividades/MostrarTodasActividades.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/ejes/EjesForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/ejes/EjesFormDesign.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/ejes/EjesTab.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/ejes/ListaEjesForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/indicadores/IndicadoresForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/indicadores/IndicadoresFormDesign.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/indicadores/IndicadoresTab.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/indicadores/ListaIndicadoresForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/metas/ListaMetasForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/metas/MetasForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/metas/MetasFormDesign.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/metas/MetasTab.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/usuarios/ListaUsuariosForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/usuarios/UsuarioForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/usuarios/UsuarioFormDesign.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/usuarios/UsuarioPerfil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/uaz/vistas/usuarios/UsuariosTab.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/ConfigDB.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/mappers/Actividad.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/mappers/Eje.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/mappers/Indicador.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/mappers/Meta.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/mappers/Recurso.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/db/mappers/Usuario.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mx/edu/uaz/vistas/actividades/AddActividad.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mx/edu/uaz/vistas/ejes/EjesFormDesign.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mx/edu/uaz/vistas/indicadores/IndicadoresFormDesign.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mx/edu/uaz/vistas/metas/MetasFormDesign.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mx/edu/uaz/vistas/usuarios/UsuarioFormDesign.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/css/AdminLTE.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/css/_all-skins.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/css/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/css/bootstrap3-wysihtml5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/css/datepicker3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/css/daterangepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/css/estilo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/css/jquery-jvectormap-1.2.2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/css/morris.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/js/app.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/js/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/js/bootstrap3-wysihtml5.all.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/js/dashboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/js/daterangepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/js/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/js/fastclick.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/js/jquery-2.2.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/js/jquery-jvectormap-1.2.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/js/jquery-jvectormap-world-mill-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/js/jquery.knob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/js/jquery.slimscroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/js/jquery.sparkline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/js/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/addons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/designs.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/estilos.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/principal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/principalUser.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/layouts/registro.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/styles.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/VAADIN/themes/estilos/styles.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/CurrencyList_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/constants/NumberConstantsImpl_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/impl/LocaleInfoImpl_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/i18n/client/impl/LocaleInfoImpl_shared.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/lang/AppWidgetset__EntryMethodHolder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/DocumentModeAsserter_DocumentModeProperty.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/FormPanel_IFrameTemplateImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/MenuBar_Resources_default_InlineClientBundleGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/impl/ClippedImageImpl_DraggableTemplateImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.generated/com/google/gwt/user/client/ui/impl/ClippedImageImpl_TemplateImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/debug/internal/theme/DebugWindowStyles_default_InlineClientBundleGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/metadata/ConnectorBundleLoaderImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/dd/VAcceptCriterionFactoryImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/richtextarea/VRichTextToolbar_Images_default_InlineClientBundleGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/.generated/com/vaadin/client/ui/richtextarea/VRichTextToolbar_Strings_.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/AppWidgetset.gwt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/559E818219846B28670E6F3100F60868.cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/AppWidgetset.devmode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/AppWidgetset.nocache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/C81F8CA7CA7012F31BDE883DF6C99E61.cache.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/compilation-mappings.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/559E818219846B28670E6F3100F60868/1.cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/559E818219846B28670E6F3100F60868/2.cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/559E818219846B28670E6F3100F60868/3.cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/559E818219846B28670E6F3100F60868/4.cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/559E818219846B28670E6F3100F60868/5.cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/559E818219846B28670E6F3100F60868/6.cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/559E818219846B28670E6F3100F60868/7.cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/AppWidgetset/deferredjs/559E818219846B28670E6F3100F60868/8.cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/VAADIN/widgetsets/WEB-INF/deploy/AppWidgetset/rpcPolicyManifest/manifest.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/ConfigDB.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/mappers/Actividad.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/mappers/Eje.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/mappers/Indicador.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/mappers/Meta.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/mappers/Recurso.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/db/mappers/Usuario.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/actividades/AddActividad.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/ejes/EjesFormDesign.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/indicadores/IndicadoresFormDesign.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/metas/MetasFormDesign.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/mx/edu/uaz/vistas/usuarios/UsuarioFormDesign.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/generated-resources/gwt/AppWidgetset.gwt.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1302" />
+    <option name="height" value="766" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Usuarios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Usuarios" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Usuarios" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="accc3043-32f1-4585-b0ff-43a951bc5056" name="Default" comment="" />
+      <created>1502928839405</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1502928839405</updated>
+      <workItem from="1502928843321" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="1" width="1302" height="766" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+</project>
